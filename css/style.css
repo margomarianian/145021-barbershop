@@ -4,16 +4,161 @@ body {
     line-height: 24px;
     color: black;
     font-weight: 400;
+    text-transform: uppercase;
   }
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+  min-height: 1173px;
+}
 
 h1 {
     font-size: 30px;
     line-height: 42px;
     color: black;
+    margin-top: -15px;
+
+    /* Только для оформления сетки */
+    outline: 1px solid #53fff2;
 }
 
 h2 {
     font-size: 24px;
     line-height: 30px;
     color: black;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  /* Только для оформления сетки */
+  outline: 1px solid #ea46fc;
+}
+
+.main-header {
+  min-height: 70px;
+  margin-bottom: 70px;
+
+  /* Только для оформления сетки */
+  outline: 1px solid #666;
+}
+
+.logo {
+  float: left;
+  width: 140px;
+  margin-right: 20px;
+
+  /* Только для оформления сетки */
+  min-height: 70px;
+  outline: 1px solid #53fff2;
+}
+
+.main-navigation {
+  float: left;
+  width: 620px;
+
+  /* Только для оформления сетки */
+  min-height: 70px;
+  outline: 1px solid #53fff2;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+
+  /* Только для оформления сетки */
+  min-height: 70px;
+  outline: 1px solid #53fff2;
+}
+
+
+.breadcrumbs {
+  min-height: 12px;
+  margin-bottom: 55px;
+  margin-top: -5px;
+
+  /* Только для оформления сетки */
+  outline: 1px solid #2aff0e;
+}
+
+.gallery {
+width: 460px;
+float: left;
+min-height: 670px;
+
+/* Только для оформления сетки */
+outline: 1px solid #f7a437;
+}
+
+.item-info {
+float: right;
+width: 390px;
+min-height: 670px;
+
+/* Только для оформления сетки */
+outline: 1px solid #f7a437;
+}
+
+
+.filter {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+  min-height: 595px;
+
+  /* Только для оформления сетки */
+  outline: 1px solid #53fff2;
+}
+
+.catalog {
+  float: left;
+  width: 700px;
+  min-height: 680px;
+
+  /* Только для оформления сетки */
+  outline: 1px solid #53fff2;
+}
+
+.main-footer {
+  margin-top: 45px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+  outline: 1px solid #53fff2;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+  outline: 1px solid #53fff2;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+  outline: 1px solid #53fff2;
 }
